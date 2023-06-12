@@ -4,6 +4,7 @@
     font-family: 'Poppins', sans-serif;
     padding: 0;
     margin: 0;
+    font-size: 15px;
 }
 
 .layer1 {
@@ -65,7 +66,6 @@
 
 .tempatlogo img{
     margin-top: 9px;
-    /* margin-left: 100px; */
     width: 70px;
     height: 70px;
 }
@@ -116,52 +116,120 @@
     filter: drop-shadow(0px 0px 2px rgba(0, 0, 0, 0.5));
 }
 
-.layer3 {
-    width: 100%;
-    margin-top: 180px;
+#layer3 {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    text-align: center;
+    flex-direction: column;
+    margin-top: 200px;
+    max-width: 100%;
 }
 
 body {
     overflow-x: hidden;
 }
 
-.sublayer31 {
-    width: 110%;
-    position: absolute;
-    background-color: #4070F4;
+#bglengkung {
+    width: 120%;
     height: 300px;
-    border-radius: 80%;
-    margin-top: 20px;
+    background-color: #4070F4;
+    border-radius: 70%;
 }
 
-.sublayer32 {
+#bgkotak {
     width: 100%;
     height: 500px;
     background-color: #4070F4;
-    margin-top: 100px;
-}  
+    margin-top: -230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
 
-.teks1putih {
+#judulputih {
     font-family: 'Fira Code', monospace;
-    font-size: 30px;
-    font-weight: bold;
+    font-weight: 500;
+    font-size: 27px;
     color: white;
-    position: absolute;
 }
 
-.teks2putih {
+#tempattekslayer3{
     width: 80%;
-    color: white;
-    position: relative;
-    margin-top: 270px;
-    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-#khusus {
-    margin-top: 10px;
+.tekslayer3 {
+    font-size: 18px;
+    color: white;
+}
+
+#teks1 {
+    margin-top: 30px;
+}
+
+#teks2 {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#tempatcard {
+    width: 110%;
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    width: 367px;
+    height: 713px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #4070F4;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.judulcard {
+    font-family: 'Fira Code', monospace;
+    font-weight: 500;
+    font-size: 25px;
+    color: black;
+    margin-top: 49px;
+}
+
+.subjudulcard {
+    color: #4070F4;
+    margin-bottom: 9px;
+}
+
+.textcard1 {
+    width: 321px;
+    color: black;
+    margin-top: 31px;
+    margin-bottom: 33px;
+}
+
+.textcard2 {
+    width: 321px;
+    color: black;
+    margin-bottom: 31px;
+}
+
+.textcard3 {
+    width: 321px;
+    color: black;
+}
+
+#textcard2khusus {
+    margin-bottom: 52px;
 }
