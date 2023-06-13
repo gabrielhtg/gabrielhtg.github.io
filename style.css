@@ -168,13 +168,13 @@
     color: white;
 }
 
-/* #tempattekslayer3{
+#tempattekslayer3{
     width: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 350px;
-} */
+}
 
 .tekslayer3 {
     font-size: 18px;
@@ -187,7 +187,6 @@
 
 #teks23 {
     margin-top: 25px;
-    margin-bottom: 350px;
 }
 
 #tempatcard {
