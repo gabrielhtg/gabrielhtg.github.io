@@ -62,6 +62,10 @@
   margin-top: 50px;
 }
 
+#my_cv {
+  margin-top: 20px;
+}
+
 .tempatlogo {
   width: 200px;
   flex-grow: 1;
@@ -241,7 +245,7 @@
   color: black;
 }
 
-#textcard2khusus {
+.textcard2khusus {
   margin-bottom: 52px;
 }
 
